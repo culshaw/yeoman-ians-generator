@@ -1,0 +1,37 @@
+{
+  "name": "Custom frontend scaffold builder for Yeoman.",
+  "version": "0.0.1",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-ians-generator"
+  ],
+  "homepage": "https://github.com/culshaw/yeoman-ians-generator",
+  "bugs": "https://github.com/culshaw/yeoman-ians-generator/issues",
+  "author": {
+    "name": "culshaw",
+    "email": "culshaw+github@gmail.com",
+    "url": "https://github.com/culshaw"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/culshaw/yeoman-ians-generator.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.10.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
